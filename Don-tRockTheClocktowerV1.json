@@ -1,0 +1,325 @@
+[
+	{
+		"id":"_meta",
+		"name":"Don't Rock The Clocktower",
+		"author":"Vanya",
+		"almanac":"https://www.bloodstar.xyz/p/VanyaForBlahaj/Dont_Rock_the_Clocktower/almanac.html"
+	},
+	{
+		"id":"sailor_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/sailor_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Each night*, choose an alive player: either you or they are drunk until dusk. You can't die",
+		"reminders":[
+			"Drunk"	
+		],
+		"name":"Sailor",
+		"team":"townsfolk",
+		"ability":"Each night, choose an alive player: either you or they are drunk until dusk. You can't die",
+		"flavor":"I'll drink any one of yer under the table! You! The chatterbox! Reckon you can take me? No? Howza 'bout you, Grandma? You ever tried Old McKillys Extra Spiced Rum before? Guaranteed to put hairs on yer chest! Step aboard, aye!",
+		"otherNight":3
+	},
+	{
+		"id":"fisherman_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/fisherman_dont_rock_the_clocktower.png",
+		"reminders":[
+			"No Ability"	
+		],
+		"name":"Fisherman",
+		"team":"townsfolk",
+		"ability":"Once per game, during the day, visit the Storyteller for some advice to help your team win.",
+		"flavor":"This was my favourite part of the river... see how the sunlight makes a rainbow from the monastery to the market? This was the best place for big fish. And the older I get, the bigger they were."
+	},
+	{
+		"id":"gambler_dont_rock_the_clocktower",
+		"image":"https:\/\/www.bloodstar.xyz\/p\/VanyaForBlahaj\/Dont_Rock_the_Clocktower\/gambler_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Each night*, choose a player & guess their character: if you guess wrong, you die.",
+		"reminders":[
+			"Dead"	
+		],
+		"name":"Gambler",
+		"team":"townsfolk",
+		"ability":"Each night*, choose a player & guess their character: if you guess wrong, you die.",
+		"flavor":"Heads, I win. Tails, you lose",
+		"otherNight":11
+	},
+	{
+		"id":"privateer_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/privateer_dont_rock_the_clocktower.png",
+		"reminders":[
+			"No Ability"	
+		],
+		"name":"Privateer",
+		"team":"townsfolk",
+		"ability":"Once per game, during the day, before nominations challenge a player to Ro Sham Bo. If you lose you die, otherwise your opponent dies.",
+		"flavor":"I challenge you to a duel the weapon your choice: rock, paper, scissors, fire, gun, water, air, sponge or human?"
+	},
+	{
+		"id":"piper_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/piper_dont_rock_the_clocktower.png",
+		"firstNightReminder":"Each night, choose a player: if an outsider or minion they become a townsfolk.",
+		"otherNightReminder":"Each night, choose a player: if an outsider or minion they become a townsfolk.",
+		"name":"Piper",
+		"setup":true,
+		"team":"townsfolk",
+		"ability":"Each night, choose a player: if an outsider or minion they become a townsfolk. [+1 outsider]",
+		"flavor":"Do do do do do do do do do do do do do do",
+		"otherNight":8
+	},
+	{
+		"id":"crowsnest_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/crowsnest_dont_rock_the_clocktower.png",
+		"reminders":[
+			"Cannot Die"	
+		],
+		"name":"Crows nest",
+		"team":"townsfolk",
+		"ability":"Each day, before nominations: publicly choose a player, they cannot die tonight.",
+		"flavor":"I see you"
+	},
+	{
+		"id":"trader_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/trader_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Each night*, choose a player if you choose an evil player you die.",
+		"reminders":[
+			"Dead"	
+		],
+		"name":"Trader",
+		"team":"townsfolk",
+		"ability":"Each night*, choose a player if you choose an evil player you die.",
+		"flavor":"PIRATES!",
+		"otherNight":12
+	},
+	{
+		"id":"seacaptain_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/seacaptain_dont_rock_the_clocktower.png",
+		"reminders":[
+			"Dies Tonight"	
+		],
+		"name":"Sea Captain",
+		"team":"townsfolk",
+		"ability":"Each day, publicly choose a player: a minion if chosen dies tonight.",
+		"flavor":"...So it would seem"
+	},
+	{
+		"id":"firstmate_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/firstmate_dont_rock_the_clocktower.png",
+		"reminders":[
+			"Has Ability"	
+		],
+		"name":"First mate",
+		"team":"townsfolk",
+		"ability":"You gain the ability of the first good player to die.",
+		"flavor":"That's got to be the best pirate I've ever seen..."
+	},
+	{
+		"id":"carpenter_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/carpenter_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Once per game*, choose a role: if in play they regain their ability.",
+		"reminders":[
+			"No Ability",
+			"Ability Regained"
+		],
+		"name":"Carpenter",
+		"team":"townsfolk",
+		"ability":"Once per game*, choose a role: if in play they regain their ability.",
+		"flavor":"Broken rudder, hole in the ship? I'm your man. Sea monster, man overboard? not my problem",
+		"otherNight":9
+	},
+	{
+		"id":"sawbones_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/sawbones_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Once per game*, choose a dead player: they are resurrected as an outsider.",
+		"reminders":[
+			"Alive"	
+		],
+		"name":"Sawbones",
+		"team":"townsfolk",
+		"ability":"Once per game*, choose a dead player: they are resurrected as an outsider.",
+		"flavor":"All's fine John. Been in worse spots I think... Where's the rest of his leg?",
+		"otherNight":13
+	},
+	{
+		"id":"passenger_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/passenger_dont_rock_the_clocktower.png",
+		"firstNightReminder":"Once per game, choose a player: if possible their ability targets you until you die. The player you selected doesn't learn this.",
+		"otherNightReminder":"Once per game, choose a player: if possible their ability targets you until you die. The player you selected doesn't learn this.",
+		"reminders":[
+			"Retargeted"	
+		],
+		"name":"Passenger",
+		"team":"townsfolk",
+		"ability":"Once per game, choose a player: if possible their ability targets you until you die. The player you selected doesn't learn this.",
+		"flavor":"Life at sea's strange mother, It feels like days ago I was climbing trees and skimming stones with Edward. I've played (and lost) many games of dice, seen sharks circle and even witnessed executions",
+		"otherNight":2
+	},
+	{
+		"id":"rat_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/rat_dont_rock_the_clocktower.png",
+		"name":"Rat",
+		"setup":true,
+		"team":"outsider",
+		"ability":"[+0-2 Rats]",
+		"flavor":"*Squeak Squeak*",
+		"special": [
+            {
+                "type":"selection",
+                "name":"bag-duplicate"
+            }
+        ]
+	},
+	{
+		"id":"pirate_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/pirate_dont_rock_the_clocktower.png",
+		"firstNightReminder":"If a pirate captain is alive you are evil. You know your alignment.",
+		"otherNightReminder":"If a pirate captain is alive you are evil. You know your alignment.",
+		"reminders":[
+			"Good",
+			"Evil"	
+		],
+		"name":"Pirate",
+		"team":"outsider",
+		"ability":"If a pirate captain is alive you are evil. You know your alignment.",
+		"flavor":"Yarr, avast me harties, argggg, yo ho ho *pirate noises continue*",
+		"firstNight":13,
+		"otherNight":14
+	},
+	{
+		"id":"stowaway_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/stowaway_dont_rock_the_clocktower.png",
+		"firstNightReminder":"You are mad as another character or might be executed.",
+		"name":"Stowaway",
+		"team":"outsider",
+		"ability":"You are mad as another character or might be executed.",
+		"flavor":"Under cargo and gold, eating scraps and drinking drops, I've lost myself I hardly know the time or day, I can't remember the last time I saw moon or sun. The voices seem constant, Spanish, English, French all muddled to one over days and weeks, it's never clear if their real or I'm mad",
+		"firstNight":11
+	},
+	{
+		"id":"castaway_dont_rock_the_clocktower",
+		"image":"https:\/\/www.bloodstar.xyz\/p\/VanyaForBlahaj\/Dont_Rock_the_Clocktower\/castaway_dont_rock_the_clocktower.png",
+		"firstNightReminder":"You are mad another player is a specific character or might be executed.",
+		"reminders":[
+			"Mad"	
+		],
+		"name":"Castaway",
+		"team":"outsider",
+		"ability":"You are mad another player is a specific character or might be executed.",
+		"flavor":"Wilson! I'm sorry, Wilson. Wilson, I'm sorry! I'm sorry!",
+		"firstNight":12
+	},
+	{
+		"id":"piratecaptain_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/piratecaptain_dont_rock_the_clocktower.png",
+		"name":"Pirate Captain",
+		"setup":true,
+		"team":"minion",
+		"ability":"Once per game if there are 5 or more players alive, choose a player: they are executed. [+Pirate]",
+		"flavor":"I've got a jar of dirt"
+	},
+	{
+		"id":"virmin_dont_rock_the_clocktower",
+		"image":"https:\/\/www.bloodstar.xyz\/p\/VanyaForBlahaj\/Dont_Rock_the_Clocktower\/virmin_dont_rock_the_clocktower.png",
+		"otherNightReminder":"You may choose to die.",
+		"reminders":[
+			"Dead"	
+		],
+		"name":"Virmin",
+		"setup":true,
+		"team":"minion",
+		"ability":"You begin knowing all rats in play. Each night*, you may choose to die. [+0-2 Rats]",
+		"flavor":"*Angry Squeek Squeek*",
+		"otherNight":10
+	},
+	{
+		"id":"seaurchin_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/seaurchin_dont_rock_the_clocktower.png",
+		"reminders":[
+			"Townsfolk Poisoned"	
+		],
+		"name":"Sea Urchin",
+		"team":"minion",
+		"ability":"When executed all townsfolk are poisoned tonight and tomorow day.",
+		"flavor":"Argg ya skally, just cos mes grew up on the ships n' that don' mean im not gon kill yah. Me mams died whilst mes was itty an' I bin on the ses ever since, 'ave seen how to do every bitty thing, just bit o' mah luck nout ever stuck, the'd say a'm to \"whinny\" or \"gad for nattin\" 'ever that meant"
+	},
+	{
+		"id":"mutiny_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/mutiny_dont_rock_the_clocktower.png",
+		"reminders":[
+			"No Ability"	
+		],
+		"name":"Mutiny",
+		"setup":true,
+		"team":"minion",
+		"ability":"Once per game publicly guess a player as the Sea Captain, if correct your team wins. [+Sea Captain]",
+		"flavor":"Craptain! Craptain! Craptain!"
+	},
+	{
+		"id":"theblackdeath_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/theblackdeath_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Each night a player might die.",
+		"reminders":[
+			"Dead"	
+		],
+		"name":"The Black Death",
+		"team":"demon",
+		"ability":"Each night, Minions choose who carries The Black Death & 'is the Demon'. Each night*, a player might die. [+1 Minion]",
+		"flavor":"Ring-a-ring o' roses, A pocket full of posies, A-tishoo! A-tishoo!, We all fall down",
+		"otherNight":4
+	},
+	{
+		"id":"siren_dont_rock_the_clocktower",
+		"image":"https:\/\/www.bloodstar.xyz\/p\/VanyaForBlahaj\/Dont_Rock_the_Clocktower\/siren_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Each night*, choose a player, the Storyteller decides whether they die or turn evil, you do not learn which.",
+		"reminders":[
+			"Dead",
+			"Evil"	
+		],
+		"name":"Siren",
+		"setup":true,
+		"team":"demon",
+		"ability":"Each night*, choose a player, the Storyteller decides whether they die or turn evil, you do not learn which. [-1 Minion]",
+		"flavor":"WE WO WE WO WE WO!",
+		"otherNight":5
+	},
+	{
+		"id":"shipscat_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/shipscat_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Each night choose a player, they die.",
+		"reminders":[
+			"Dead",
+			"Dead",	
+			"Dead",	
+			"Dead",	
+			"Dead",	
+			"Dead",	
+			"Dead"
+		],
+		"name":"Ships Cat",
+		"setup":true,
+		"team":"demon",
+		"ability":"Each night*, choose a player, they die, if you choose a rat all rats die. [+Rat]",
+		"flavor":"Hiss",
+		"otherNight":6
+	},
+	{
+		"id":"nodashii_dont_rock_the_clocktower",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/shipscat_dont_rock_the_clocktower.png",
+		"otherNightReminder":"Each night choose a player, they die.",
+		"reminders":[
+			"Dead",
+			"Poisoned",
+			"Poisoned"	
+		],
+		"name":"No Dashii",
+		"team":"demon",
+		"ability":"Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
+		"flavor":"By the sins of Arnoch, I feel thy laden stench. By the curs-ed sun and her foul legion of tiny grinning gods, I corrupt thee. By the blessed night and the hidden depths of the horrid and unholy sea, I end thy squalid life upon this plane",
+		"otherNight":7
+	},
+	{
+		"id":"gunslinger_dont_rock_the_clocktower",
+		"image":"https:\/\/www.bloodstar.xyz\/p\/VanyaForBlahaj\/Dont_Rock_the_Clocktower\/gunslinger_dont_rock_the_clocktower.png",
+		"name":"Gunslinger",
+		"team":"traveller",
+		"ability":"Each day, after the 1st vote has been tallied, you may choose a player that voted: they die."
+	}
+]
