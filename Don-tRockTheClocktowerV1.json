@@ -255,13 +255,13 @@
 	{
 		"id":"theblackdeath_dont_rock_the_clocktower",
 		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/theblackdeath_dont_rock_the_clocktower.png",
-		"otherNightReminder":"Each night a player might die.",
+		"otherNightReminder":"Each night choose 2 players, one is poisoned till tomorow night and the other dies.",
 		"reminders":[
 			"Dead"	
 		],
 		"name":"The Black Death",
 		"team":"demon",
-		"ability":"Each night, Minions choose who carries The Black Death & 'is the Demon'. Each night*, a player might die. [+1 Minion]",
+		"ability":"Each night choose 2 players, one is poisoned till tomorow night and the other dies.",
 		"flavor":"Ring-a-ring o' roses, A pocket full of posies, A-tishoo! A-tishoo!, We all fall down",
 		"otherNight":4
 	},
