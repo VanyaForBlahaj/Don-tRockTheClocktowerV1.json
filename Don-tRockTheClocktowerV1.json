@@ -56,8 +56,8 @@
 	{
 		"id":"piper_dont_rock_the_clocktower",
 		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/piper_dont_rock_the_clocktower.png",
-		"firstNightReminder":"Each night, choose a player: if an outsider or minion they become a townsfolk.",
-		"otherNightReminder":"Each night, choose a player: if an outsider or minion they become a townsfolk.",
+		"firstNightReminder":"Each night, choose a player: if an alive outsider or minion they become a townsfolk.",
+		"otherNightReminder":"Each night, choose a player: if an alive outsider or minion they become a townsfolk.",
 		"name":"Piper",
 		"setup":true,
 		"team":"townsfolk",
@@ -71,7 +71,7 @@
 		"reminders":[
 			"Cannot Die"	
 		],
-		"name":"Crows nest",
+		"name":"Lookout",
 		"team":"townsfolk",
 		"ability":"Each day, before nominations: publicly choose a player, they cannot die tonight.",
 		"flavor":"I see you"
@@ -302,7 +302,7 @@
 	},
 	{
 		"id":"nodashii_dont_rock_the_clocktower",
-		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/shipscat_dont_rock_the_clocktower.png",
+		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/nodashii_dont_rock_the_clocktower.png",
 		"otherNightReminder":"Each night choose a player, they die.",
 		"reminders":[
 			"Dead",
