@@ -16,7 +16,7 @@
 		"team":"townsfolk",
 		"ability":"Each night, choose an alive player: either you or they are drunk until dusk. You can't die",
 		"flavor":"I'll drink any one of yer under the table! You! The chatterbox! Reckon you can take me? No? Howza 'bout you, Grandma? You ever tried Old McKillys Extra Spiced Rum before? Guaranteed to put hairs on yer chest! Step aboard, aye!",
-		"otherNight":3
+		"otherNight":1
 	},
 	{
 		"id":"fisherman_dont_rock_the_clocktower",
@@ -40,7 +40,7 @@
 		"team":"townsfolk",
 		"ability":"Each night*, choose a player & guess their character: if you guess wrong, you die.",
 		"flavor":"Heads, I win. Tails, you lose",
-		"otherNight":11
+		"otherNight":9
 	},
 	{
 		"id":"privateer_dont_rock_the_clocktower",
@@ -54,19 +54,20 @@
 		"flavor":"I challenge you to a duel the weapon your choice: rock, paper, scissors, fire, gun, water, air, sponge or human?"
 	},
 	{
-		"id":"piper_dont_rock_the_clocktower",
-		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/piper_dont_rock_the_clocktower.png",
-		"firstNightReminder":"Each night, choose a player: if an alive outsider or minion they become a townsfolk.",
-		"otherNightReminder":"Each night, choose a player: if an alive outsider or minion they become a townsfolk.",
-		"name":"Piper",
+		"id":"masteratarms_dont_rock_the_clocktower",
+		"image":,
+		"firstNightReminder":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
+		"otherNightReminder":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
+		"name":"Master at arms",
 		"setup":true,
 		"team":"townsfolk",
-		"ability":"Each night, choose a player: if an outsider or minion they become a townsfolk. [+1 outsider]",
-		"flavor":"Do do do do do do do do do do do do do do",
-		"otherNight":8
+		"ability":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
+		"flavor":"Why the fuck are you using reverse grip!",
+		"firstNight":14
+		"otherNight":13
 	},
 	{
-		"id":"crowsnest_dont_rock_the_clocktower",
+		"id":"lookout_dont_rock_the_clocktower",
 		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/crowsnest_dont_rock_the_clocktower.png",
 		"reminders":[
 			"Cannot Die"	
@@ -87,7 +88,7 @@
 		"team":"townsfolk",
 		"ability":"Each night*, choose a player if you choose an evil player you die.",
 		"flavor":"PIRATES!",
-		"otherNight":12
+		"otherNight":10
 	},
 	{
 		"id":"seacaptain_dont_rock_the_clocktower",
@@ -112,18 +113,18 @@
 		"flavor":"That's got to be the best pirate I've ever seen..."
 	},
 	{
-		"id":"carpenter_dont_rock_the_clocktower",
-		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/carpenter_dont_rock_the_clocktower.png",
-		"otherNightReminder":"Once per game*, choose a role: if in play they regain their ability.",
+		"id":"swashbuckler_dont_rock_the_clocktower",
+		"image":,
+		"otherNightReminder":"The first time you die durring the night you may choose another player, they die instead.",
 		"reminders":[
 			"No Ability",
 			"Ability Regained"
 		],
-		"name":"Carpenter",
+		"name":"Swashbuckler",
 		"team":"townsfolk",
-		"ability":"Once per game*, choose a role: if in play they regain their ability.",
-		"flavor":"Broken rudder, hole in the ship? I'm your man. Sea monster, man overboard? not my problem",
-		"otherNight":9
+		"ability":"The first time you die durring the night you may choose another player, they die instead.",
+		"flavor":"If you want to reach the co-op boy you gotta get by me.",
+		"otherNight":7
 	},
 	{
 		"id":"sawbones_dont_rock_the_clocktower",
@@ -136,21 +137,17 @@
 		"team":"townsfolk",
 		"ability":"Once per game*, choose a dead player: they are resurrected as an outsider.",
 		"flavor":"All's fine John. Been in worse spots I think... Where's the rest of his leg?",
-		"otherNight":13
+		"otherNight":11
 	},
 	{
-		"id":"passenger_dont_rock_the_clocktower",
+		"id":"quatermaster_dont_rock_the_clocktower",
 		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/passenger_dont_rock_the_clocktower.png",
-		"firstNightReminder":"Once per game, choose a player: if possible their ability targets you until you die. The player you selected doesn't learn this.",
-		"otherNightReminder":"Once per game, choose a player: if possible their ability targets you until you die. The player you selected doesn't learn this.",
-		"reminders":[
-			"Retargeted"	
-		],
+		"firstNightReminder":"You start knowing an incomplete piece of information.",
 		"name":"Passenger",
 		"team":"townsfolk",
-		"ability":"Once per game, choose a player: if possible their ability targets you until you die. The player you selected doesn't learn this.",
-		"flavor":"Life at sea's strange mother, It feels like days ago I was climbing trees and skimming stones with Edward. I've played (and lost) many games of dice, seen sharks circle and even witnessed executions",
-		"otherNight":2
+		"ability":"You start knowing an incomplete piece of information, each day: you may ask any yes or no question about this information.",
+		"flavor":"It's 2 shillings and sixpence, it's also a quater angel. This is 120 pennies which is 10 shillings yeah. Half an angel, that's 60 penies; Which is a crown which is 5 shilligns...",
+		"firstNight":15
 	},
 	{
 		"id":"rat_dont_rock_the_clocktower",
@@ -181,7 +178,7 @@
 		"ability":"If a pirate captain is alive you are evil. You know your alignment.",
 		"flavor":"Yarr, avast me harties, argggg, yo ho ho *pirate noises continue*",
 		"firstNight":13,
-		"otherNight":14
+		"otherNight":12
 	},
 	{
 		"id":"stowaway_dont_rock_the_clocktower",
@@ -212,7 +209,7 @@
 		"name":"Pirate Captain",
 		"setup":true,
 		"team":"minion",
-		"ability":"Once per game if there are 5 or more players alive, choose a player: they are executed. [+Pirate]",
+		"ability":"Once per game if there are 5 or more players alive, choose a player: they are executed.",
 		"flavor":"I've got a jar of dirt"
 	},
 	{
@@ -225,9 +222,9 @@
 		"name":"Virmin",
 		"setup":true,
 		"team":"minion",
-		"ability":"You begin knowing all rats in play. Each night*, you may choose to die. [+0-2 Rats]",
+		"ability":"On night one, choose a player: you steal their abilty, they learnt their ability has been taken.",
 		"flavor":"*Angry Squeek Squeek*",
-		"otherNight":10
+		"otherNight":8
 	},
 	{
 		"id":"seaurchin_dont_rock_the_clocktower",
@@ -249,7 +246,7 @@
 		"name":"Mutiny",
 		"setup":true,
 		"team":"minion",
-		"ability":"Once per game publicly guess a player as the Sea Captain, if correct your team wins. [+Sea Captain]",
+		"ability":"Once per game, call for a mutiny: all players must point at a living player. If an evil player has the most players pointing towards them evil wins.",
 		"flavor":"Craptain! Craptain! Craptain!"
 	},
 	{
@@ -261,9 +258,9 @@
 		],
 		"name":"The Black Death",
 		"team":"demon",
-		"ability":"Each night choose 2 players, one is poisoned till tomorow night and the other dies.",
+		"ability":"Each night choose 2 players, one dies, the other is mad they should die tommorow or might be executed.",
 		"flavor":"Ring-a-ring o' roses, A pocket full of posies, A-tishoo! A-tishoo!, We all fall down",
-		"otherNight":4
+		"otherNight":2
 	},
 	{
 		"id":"siren_dont_rock_the_clocktower",
@@ -278,27 +275,21 @@
 		"team":"demon",
 		"ability":"Each night*, choose a player, the Storyteller decides whether they die or turn evil, you do not learn which. [-1 Minion]",
 		"flavor":"WE WO WE WO WE WO!",
-		"otherNight":5
+		"otherNight":3
 	},
 	{
 		"id":"shipscat_dont_rock_the_clocktower",
 		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/shipscat_dont_rock_the_clocktower.png",
-		"otherNightReminder":"Each night choose a player, they die.",
+		"otherNightReminder":"Each night choose a player, you learn their role and then may choose to kill them even if for some reason you couldn't.",
 		"reminders":[
-			"Dead",
-			"Dead",	
-			"Dead",	
-			"Dead",	
-			"Dead",	
-			"Dead",	
 			"Dead"
 		],
 		"name":"Ships Cat",
 		"setup":true,
 		"team":"demon",
-		"ability":"Each night*, choose a player, they die, if you choose a rat all rats die. [+Rat]",
+		"ability":"Each night choose a player, you learn their role and then may choose to kill them even if for some reason you couldn't.",
 		"flavor":"Hiss",
-		"otherNight":6
+		"otherNight":4
 	},
 	{
 		"id":"nodashii_dont_rock_the_clocktower",
@@ -313,7 +304,7 @@
 		"team":"demon",
 		"ability":"Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
 		"flavor":"By the sins of Arnoch, I feel thy laden stench. By the curs-ed sun and her foul legion of tiny grinning gods, I corrupt thee. By the blessed night and the hidden depths of the horrid and unholy sea, I end thy squalid life upon this plane",
-		"otherNight":7
+		"otherNight":5
 	},
 	{
 		"id":"gunslinger_dont_rock_the_clocktower",
