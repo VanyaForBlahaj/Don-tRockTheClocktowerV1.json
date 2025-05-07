@@ -59,18 +59,17 @@
 		"firstNightReminder":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
 		"otherNightReminder":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
 		"name":"Master at arms",
-		"setup":true,
 		"team":"townsfolk",
 		"ability":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
 		"flavor":"Why the fuck are you using reverse grip!",
-		"firstNight":14,
+		"firstNight":16,
 		"otherNight":13
 	},
 	{
 		"id":"lookout_dont_rock_the_clocktower",
-		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/crowsnest_dont_rock_the_clocktower.png",
+		"image":"https://www.bloodstar.xyz/p/VanyaForBlahaj/Dont_Rock_the_Clocktower/lookout_dont_rock_the_clocktower.png",
 		"reminders":[
-			"Cannot Die"	
+			"Cannot Die"
 		],
 		"name":"Lookout",
 		"team":"townsfolk",
@@ -147,7 +146,7 @@
 		"team":"townsfolk",
 		"ability":"You start knowing an incomplete piece of information, each day: you may ask any yes or no question about this information.",
 		"flavor":"It's 2 shillings and sixpence, it's also a quater angel. This is 120 pennies which is 10 shillings yeah. Half an angel, that's 60 penies; Which is a crown which is 5 shilligns...",
-		"firstNight":15
+		"firstNight":17
 	},
 	{
 		"id":"rat_dont_rock_the_clocktower",
@@ -177,7 +176,7 @@
 		"team":"outsider",
 		"ability":"If a pirate captain is alive you are evil. You know your alignment.",
 		"flavor":"Yarr, avast me harties, argggg, yo ho ho *pirate noises continue*",
-		"firstNight":13,
+		"firstNight":15,
 		"otherNight":12
 	},
 	{
@@ -188,7 +187,7 @@
 		"team":"outsider",
 		"ability":"You are mad as another character or might be executed.",
 		"flavor":"Under cargo and gold, eating scraps and drinking drops, I've lost myself I hardly know the time or day, I can't remember the last time I saw moon or sun. The voices seem constant, Spanish, English, French all muddled to one over days and weeks, it's never clear if their real or I'm mad",
-		"firstNight":11
+		"firstNight":13
 	},
 	{
 		"id":"castaway_dont_rock_the_clocktower",
@@ -201,13 +200,12 @@
 		"team":"outsider",
 		"ability":"You are mad another player is a specific character or might be executed.",
 		"flavor":"Wilson! I'm sorry, Wilson. Wilson, I'm sorry! I'm sorry!",
-		"firstNight":12
+		"firstNight":14
 	},
 	{
 		"id":"piratecaptain_dont_rock_the_clocktower",
 		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/piratecaptain_dont_rock_the_clocktower.png",
 		"name":"Pirate Captain",
-		"setup":true,
 		"team":"minion",
 		"ability":"Once per game if there are 5 or more players alive, choose a player: they are executed.",
 		"flavor":"I've got a jar of dirt"
@@ -220,11 +218,10 @@
 			"Dead"	
 		],
 		"name":"Virmin",
-		"setup":true,
 		"team":"minion",
 		"ability":"On night one, choose a player: you steal their abilty, they learnt their ability has been taken.",
 		"flavor":"*Angry Squeek Squeek*",
-		"otherNight":8
+		"firstNight":12
 	},
 	{
 		"id":"seaurchin_dont_rock_the_clocktower",
@@ -244,7 +241,6 @@
 			"No Ability"	
 		],
 		"name":"Mutiny",
-		"setup":true,
 		"team":"minion",
 		"ability":"Once per game, call for a mutiny: all players must point at a living player. If an evil player has the most players pointing towards them evil wins.",
 		"flavor":"Craptain! Craptain! Craptain!"
@@ -285,7 +281,6 @@
 			"Dead"
 		],
 		"name":"Ships Cat",
-		"setup":true,
 		"team":"demon",
 		"ability":"Each night choose a player, you learn their role and then may choose to kill them even if for some reason you couldn't.",
 		"flavor":"Hiss",
