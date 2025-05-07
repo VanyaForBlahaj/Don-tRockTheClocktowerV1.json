@@ -55,7 +55,7 @@
 	},
 	{
 		"id":"masteratarms_dont_rock_the_clocktower",
-		"image":,
+		"image":"https://www.bloodstar.xyz/p/VanyaForBlahaj/Dont_Rock_the_Clocktower/masteratarms_dont_rock_the_clocktower.png",
 		"firstNightReminder":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
 		"otherNightReminder":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
 		"name":"Master at arms",
@@ -114,7 +114,7 @@
 	},
 	{
 		"id":"swashbuckler_dont_rock_the_clocktower",
-		"image":,
+		"image":"https://www.bloodstar.xyz/p/VanyaForBlahaj/Dont_Rock_the_Clocktower/swashbuckler_dont_rock_the_clocktower.png",
 		"otherNightReminder":"The first time you die durring the night you may choose another player, they die instead.",
 		"reminders":[
 			"No Ability",
@@ -141,7 +141,7 @@
 	},
 	{
 		"id":"quatermaster_dont_rock_the_clocktower",
-		"image":"https://www.bloodstar.xyz/usersave/VanyaForBlahaj/Dont_Rock_the_Clocktower/passenger_dont_rock_the_clocktower.png",
+		"image":"https://www.bloodstar.xyz/p/VanyaForBlahaj/Dont_Rock_the_Clocktower/quartermaster_dont_rock_the_clocktower.png",
 		"firstNightReminder":"You start knowing an incomplete piece of information.",
 		"name":"Passenger",
 		"team":"townsfolk",
