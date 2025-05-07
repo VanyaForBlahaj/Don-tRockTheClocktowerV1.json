@@ -213,9 +213,9 @@
 	{
 		"id":"virmin_dont_rock_the_clocktower",
 		"image":"https:\/\/www.bloodstar.xyz\/p\/VanyaForBlahaj\/Dont_Rock_the_Clocktower\/virmin_dont_rock_the_clocktower.png",
-		"otherNightReminder":"You may choose to die.",
+		"firstNightReminder":"On night one, choose a player: you steal their abilty, they learnt their ability has been taken.",
 		"reminders":[
-			"Dead"	
+			
 		],
 		"name":"Virmin",
 		"team":"minion",
