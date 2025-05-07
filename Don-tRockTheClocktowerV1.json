@@ -63,7 +63,7 @@
 		"team":"townsfolk",
 		"ability":"Each night, choose a player; you learn how valuable a demon target they are on a scale of 1-5 with 5 being the most valuable.",
 		"flavor":"Why the fuck are you using reverse grip!",
-		"firstNight":14
+		"firstNight":14,
 		"otherNight":13
 	},
 	{
